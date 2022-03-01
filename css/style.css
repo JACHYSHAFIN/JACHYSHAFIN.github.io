@@ -3,14 +3,15 @@ body{
     
 }
 body, html {
-    height: 100%;
+     height: 100%;
 }
 
+      /* banner er kaj hero image diyeo kora jai. niche ami hero image diye korsi.  */
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sword.gif");
-
+   /* github e image likhar uporer format ta follow korte hbe must  */
   /* Set a specific height */
   height: 100%;
 
@@ -34,4 +35,35 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+.bgcolor{
+  background-color: #027F5B;
+  position: sticky;
+  top: 0;
+}
+.about-container{
+  background-color: black;
+  color: #027F5B;
+}
+.education-container{
+  background-color: #027F5B;
+  color: black;
+  text-align: center;
+}
+.circle1{
+  background-color: black;
+  color: #027F5B;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding-top: 30px;
+}
+.card1{
+  background-color: black;
+  color: #027F5B;
+  text-align: center;
+}
+.read{
+  color: #027F5B;
 }

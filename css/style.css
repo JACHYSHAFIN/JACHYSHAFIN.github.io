@@ -69,3 +69,47 @@ body, html {
 .read{
   color: #027F5B;
 }
+.preject-container{
+  background-color: black;
+  color: #027F5B;
+  text-align: center;
+}
+.portfolio-container{
+  background-color: #027F5B;
+  color: black;
+  text-align: center;
+}
+.contact-container{
+  background-color: black;
+  color: #027F5B;
+}
+.inner-form{
+  background-color: #027F5B;
+}
+.inner-form:hover{
+  background-color: aliceblue;
+}
+.sendcolor{
+  color: black;
+  text-decoration: none !important;
+}
+.footer-container{
+  background-color: #027F5B;
+  color: black;
+  text-align: center;
+}
+.icon-circle{
+  background-color: black;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  /* display inline block na dile ekta icon pora block niye nito, r font size 40px disi f likha ta mane icon ta boro korar jonno, text align center disi f likha ta majkhane thakar jonno */
+  font-size: 40px;
+  text-align: center;
+  color: #027F5B;
+}
+.icon-circle:hover{
+  background-color: whitesmoke;
+  color: #027F5B;
+}

@@ -58,11 +58,13 @@ body, html {
   width: 150px;
   border-radius: 50%;
   padding-top: 30px;
+  margin: auto;
 }
 .card1{
   background-color: black;
   color: #027F5B;
   text-align: center;
+  margin-top: 20px;
 }
 .read{
   color: #027F5B;
